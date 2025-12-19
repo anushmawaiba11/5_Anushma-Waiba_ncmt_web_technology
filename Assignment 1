@@ -1,0 +1,74 @@
+Group A: Short Questions (2 Marks)
+
+1. Define the term ”Protocol” in the context of the Internet?
+Ans: An internet protocol is a formal set of rules and standards that governs how data is formatted, transmitted, and received across a network.
+
+2. What is the primary difference between a Web Browser and a Search Engine?
+Ans: Web Browser (The Tool): This essentially refers to the software that has been installed in your device (such as Chrome or Firefox) that helps in the retrieval of web pages from the server.
+    Search Engine (The Service): A web service such as Google or Bing that is browsed by a user through a web browser in order to look for related information or websites by key words. 
+
+3. Define the World Wide Web (WWW)?
+Ans: The WWW is a global system for interlinked hypertext documents and multimedia files on the web or web pages that are connected by hyperlinks.
+
+4.Distinguish between a static web page and a dynamic web page?
+ 1.Static webpage: On a static web page, the same content is provided to all visitors, exactly like the content is on the server. The only time there is any change is when a developer updates the coding manually.
+ 2.Dynamic Web Page: This web page is able to display information for varied purposes or for varied people (such as a login page or a news ticker). This type of page creates its content "on-the-fly" by extracting information from a database.
+
+Group B: Long Questions (4 Marks)
+
+5. Explain the client-server architecture of the web with a neat diagram?
+Ans: The client-server architecture is a distributed computing model in which tasks are distributed to service providers (servers) and service requesters (clients). 
+   How It Works – Step By Step:
+1. Client: The user has the browser open.
+2. Server: The request is received by the web server which then executes the PHP/Python code and accesses a MySQL database to get the most recent articles and then sends the HTML.
+3. Browser: Parses the article, loads CSS and JavaScript and displays it. When the user presses the button Load More, another AJAX request is launched, and the process is repeated.
+Diagram:
+[ Client / Browser ] <----(Request)---- [ Internet ] ----(Request)---> [ Web Server ]
+                     ----(Response)-->              <---(Response)---- [ (Database) ]
+
+6.Describe the functions of the following Internet services: Email, FTP, and VoIP.
+1. Email: Email, also known as electronic mail, is a network-based digital message exchange service. It sends mail via SMTP and receives and stores messages on a server until the user downloads them using POP3/IMAP.
+2. FTP: A common protocol for moving files over a network between a client and a server is called FTP (File Transfer Protocol). It enables users to efficiently download big software packages or upload website files to a server.
+3. VoIP:(Voice over Internet Protocol) is a technology that replaces traditional phone lines with IP networks (the internet) to enable voice communication and multimedia sessions. Zoom, WhatsApp calling, and Skype are a few examples.
+
+7.”The Internet is a network of networks.” Elaborate on this statement explaining how packet switching works.
+Ans: According to this statement, the Internet is a global network of millions of private, public, academic, commercial, and governmental networks rather than a single entity. TCP/IP is a standard set of rules that these various networks use to communicate.
+  Packet switching: The Internet depends on packet switching to transfer data between these linked networks. 
+  1.Breaking Down: Large data files are divided into packets, which are smaller units.
+  2.Addressing: A header listing the source and destination IP addresses is attached to every packet.
+  3.Routing: Packets travel independently along different network paths. If one path is congested, routers route packets via an alternate route.
+  4.Reassembly: When all packets arrive at their destination, the receiving device uses the sequence numbers in the headers to reassemble them into the original file. 
+
+Group C: Scenario-Based Questions (5 Marks)
+
+ 8. A startup company wants to host a website that displays the same information to all visitors and requires very low maintenance costs. However, they are being advised to use a dynamic website. As a consultant, would you agree? Justify your answer.
+ Ans:Even with a dynamic website, which can do a lot, this solution is simply the wrong solution for this task altogether. It’s common to think of a dynamic website as a sports car, where a bicycle would suffice for this task alone.
+ Why a Dynamic Website Would Not Suit This Startup:
+ This is what doesn’t make a dynamic website suitable for this startup:
+ Over-Engineering: Dynamic Sites are designed for applications such as Facebook or Amazon, in which the content is constantly being updated every second depending on the logged-in users. The content that the startup intends to put out is the same for all users, and hence no "brain," or server-side programming, is required.
+ Hidden Expenses: Dynamic websites require constant communication between the server and the code on which the sites are built, making them very costly to maintain. Essentially, you’ll be paying for a high-tech engine which you will not have the opportunity to actually switch on.
+ “Security & Speed Risks: With every additional line of coding and every database connection, there is another ‘door’ that a hacker can exploit,” reads one point. “Additionally, dynamic sites need endless fixes related to security updates, while a static website is merely a file that loads much faster into the browser and is much less hackable.”
+In summary, what the startup wants to achieve is simplicity and affordability, but a dynamic website provides the opposite, which is complexity and cost.
+  
+     
+9. A user types www.google.com into their browser, but the browser displays a ”Server Not Found” error, even though the internet connection is active. However, accessing the site via 142.250.190.46 works. Diagnose the problem and explain the underlying technology that failed.  
+Ans: The issue here is that there is a problem with "Domain Name System (DNS)" functionality. The computer is not able to translate the human-readable URL (www.google.com) to a machine-readable IP address (142.250.190.46).
+Explanation of DNS Failure:
+The technology that failed is DNS.
+"DNS is the internet's phone book because it translates domain names into IP addresses."
+Then, when the user tries to access www.google.com, the web browser asks a DNS server for the IP address of that website.
+"Server Not Found": This error code indicates the failure of the DNS lookup (for instance, because the local DNS server might be down or the cache might be corrupted).
+Using the IP address directly to access the site (142.250.190.46) bypasses the DNS look-up altogether, which confirms the fact that the server for the website is up and running and accessible, but there is some problem with the name service.
+
+10.A multinational corporation wants to share sensitive inventory data with specific suppliers but does not want this information available to the general public. Explain which network type (Intranet, Extranet, or Internet) they should implement and why.
+Ans: The multinational corporation must establish an Extranet because 
+Extranet:
+An Extranet is a secured, private network that enables secure, business-related information to be accessed by any person related to the specific business, such as suppliers, vendors, and partners.
+It acts as a type of Intranet; however, all these can be accessed over the Internet with proper security along with firewalls, usernames, and passwords, with restricted access just to selective suppliers concerning the inventory data.
+Why other choices are incorrect:
+Intranet: Intranets are only accessible by the internal workforce members employed by the company alone. They will not allow the external suppliers to download the data.
+Internet: The Internet is a public network that is globally accessible by all individuals. Accessing it would make all the sensitive inventory data accessible to the public, thereby directly opposing the corporation's need for restricted access.
+
+
+
+
