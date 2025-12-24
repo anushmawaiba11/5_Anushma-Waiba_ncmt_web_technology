@@ -1,0 +1,46 @@
+Group A: Short Questions (2 Marks)
+1. Define the term “Sitemap” in the planning phase?
+Ans:A Sitemap is a visual or conceptual diagram that represents the hierarchical structure of a website. It outlines how different pages relate to one another, helping developers define the user journey and ensuring that the navigation is intuitive before any coding begins.
+
+2. What is the purpose of the “Launch” phase in web development? 
+Ans:The purpose of the Launch phase is to move the website from a local or staging environment to a live server, making it accessible to the public. This involves final server configurations, domain name mapping, and a final "smoke test" to ensure everything functions correctly in the live environment.
+
+3. Why is “Documentation” important in the development lifecycle? 
+Ans:Documentation serves as a roadmap for current and future developers. It ensures that the codebase is maintainable, makes it easier to debug issues, and provides a reference for site architecture, APIs, and administrative tasks, which is vital when team members change.
+
+4. Differentiate between Front-end and Back-end development.
+Ans:Front-end: Focuses on the "client-side"—everything a user sees and interacts with (layout, buttons, colors) using HTML, CSS, and JavaScript.
+Back-end: Focuses on the "server-side"—the logic, databases, and APIs that power the site but are invisible to the user.
+
+Group B: Long Questions (4 Marks)
+5. “Planning is the most critical phase of web development.” Discuss this statement by listing key activities.
+Ans:Planning sets the foundation for the entire project. Without it, a project suffers from "scope creep" and wasted resources. Key activities include:
+Defining Goals: Determining what the website should achieve (e.g., sales, information).
+Creating a Sitemap: Mapping out the page structure.
+Wireframing: Creating low-fidelity sketches of page layouts.
+Tech Stack Selection: Deciding which programming languages and frameworks to use.
+
+6. Explain the iterative nature of the Maintenance phase. Why is a website never truly “finished”? 
+Ans:A website is a living product. The Maintenance phase is iterative because technology, security threats, and user needs are constantly evolving.
+Security: New vulnerabilities emerge daily, requiring regular patches.
+Compatibility: Browsers (Chrome, Safari) update frequently; the site must be tweaked to remain compatible.
+Content & Feedback: User behavior data might suggest that a specific feature isn't working, leading to a "re-planning" and "re-coding" cycle.
+
+7. Describe the process of “Information Gathering.” Why is the target audience crucial?
+Ans:Information Gathering is the discovery phase where developers meet with stakeholders to identify the project's purpose. 
+Importance of the Target Audience: 
+Understanding the audience (age, tech-savviness, interests) dictates the design aesthetic (e.g., bright colors for kids vs. sleek for professionals) and the functionality (e.g., high accessibility features for elderly users). If you don't know who the user is, the site will fail to provide value.
+
+Group C: Scenario-Based Questions (5 Marks)
+8.You are the project manager for a new e-commerce site. The client wants to skip the ”Testing” phase to save money and launch early. Write a persuasive argument explaining
+the potential risks (security, functionality, compatibility) of skipping this phase.
+Ans:Skipping the testing phase can lead to serious problems for an e-commerce website. Without proper testing, security vulnerabilities may remain, putting customer data and online payments at risk. Functional errors such as broken links, failed checkout processes, or incorrect order calculations may occur, leading to customer dissatisfaction and loss of sales. 
+Compatibility issues may arise if the site is not tested on different browsers, devices, and operating systems, causing poor user experience for some users. Testing ensures the website is secure, reliable, and works correctly before launch, ultimately saving time, money, and protecting the company’s reputation.
+
+9. A developer begins coding a website immediately after meeting the client, without creating a design prototype or sitemap. Midway through, the client rejects the layout. Analyze what went wrong in the process and how it should have been handled.
+Ans:The developer started coding without proper planning or design approval. There was no sitemap or design prototype to clarify the website structure and layout, so the client’s expectations were not clearly understood. As a result, when the client saw the layout midway, it did not meet their requirements and was rejected, causing wasted time and rework.
+The process should have included requirement analysis, creation of a sitemap and design prototype (wireframes), and client approval before coding. This would have ensured clear understanding, reduced errors, and avoided layout rejection.
+
+10.A university website was launched successfully, but after six months, students stopped visiting it because the exam schedules were outdated. Which phase of the development lifecycle was neglected? Explain the activities involved in this phase.
+Ans:The maintenance phase of the website development lifecycle was neglected. This phase occurs after the website is launched and focuses on keeping the site up to date and functional. Activities in this phase include updating content such as exam schedules, fixing bugs, improving security, monitoring performance, and responding to user feedback.
+Since the exam schedules were not updated, students lost trust in the website and stopped visiting it.
